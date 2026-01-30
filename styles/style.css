@@ -1,15 +1,49 @@
-button:hover{
-    color:blue;
-}
-a:hover{
-color:rgb(241, 105, 14);
+button:hover {
+    color: blue;
 }
 
-.dator{
-border-style:solid;
-border-color:lightgrey;
-border-radius: 5px;
-padding:2.5px;
+a:hover {
+    color: rgb(241, 105, 14);
 }
 
+.dator {
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 5px;
+    padding: 2.5px;
+}
 
+body {
+    margin: 0;
+    font-family: Verdana;
+    color: black;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    display: block;
+}
+
+nav {
+    margin-top: 12 px;
+    padding: 10px;
+    border: 1px, solid;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+    font-weight: bold;
+}
