@@ -4,6 +4,7 @@ body {
     margin: 0; /* Tar bort standardmarginal på webbläsaren */
     font-family: Verdana; /* Typsnitt för all text*/
     color: black; /* Färg för all text */
+    
 }
 
 /* container skapar en "ruta" med max 980px brett */
@@ -11,7 +12,7 @@ body {
     max-width: 980px; /* Max 980px brett */
     margin: 0 auto; /*centrerar containers på sidan */
     padding: 16px; /* "padding" inuti rutan */
-    background-color: #ffffff; /*Vit bakgrund */
+    background-color: white; /*Vit bakgrund */
 }
 
 header {
