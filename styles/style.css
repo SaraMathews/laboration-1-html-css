@@ -6,12 +6,18 @@ a:hover {
     color: rgb(241, 105, 14);
 }
 
+
 .dator {
     border-style: solid;
     border-color: lightgrey;
     border-radius: 5px;
     padding: 2.5px;
 }
+.dator:hover{
+    border-color:rgb(128, 0, 128)
+    }
+
+
 
 body {
     margin: 0;
