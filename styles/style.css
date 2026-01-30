@@ -1,0 +1,16 @@
+button:hover{
+    color:blue;
+}
+a:hover{
+color:rgb(241, 105, 14);
+}
+
+#dator1{
+border-style:solid;
+border-color:lightgrey;
+border-radius: 5px;
+padding:2.5px;
+position: relative;
+}
+
+
