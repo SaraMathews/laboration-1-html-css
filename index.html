@@ -1,110 +1,142 @@
 <!DOCTYPE html>
-
 <html lang="sv">
 
 <head>
-    <meta charset="utf-8">
-    <title>SPL dataförsäljning</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta charset="utf-8">
+  <title>SPL Dataförsäljning</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <img src="images/Logo.png" alt="SPL Dataförsäljning logotyp" width="100">
-        <h1>SPL Dataförsäljning</h1>
-    </header>
 
-    <!-- Huvudmeny (på en rad) -->
-    <nav>
-        <a href="index.html">Start</a>
-        <a href="objekt.html">Objekt</a>
-        <a href="kontakt.html">Kontakt</a>
-    </nav>
+  <!-- Header -->
+  <header>
+    <img src="images/logo.png" alt="SPL Dataförsäljning logotyp" width="100">
+    <h1>SPL Dataförsäljning</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Start</a>
+    <a href="objekt.html">Objekt</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+
+  <hr>
+
+  <main>
+
+    <!-- Objektlista -->
+    <section>
+      <h2>Senast inkommet</h2>
+
+      <ul>
+        <li>
+          <h3><a href="objekt.html">TitanCore X9 Ultra</a></h3>
+
+          <a href="objekt.html">
+            <img src="images/dator1.png" alt="TitanCore X9 Ultra" width="300">
+          </a>
+
+          <p>
+            En extremt kraftfull superdator utvecklad för avancerade beräkningar och simuleringar.
+            Anpassad för forskning, AI-utveckling och storskalig dataanalys.
+          </p>
+        </li>
+
+        <hr>
+
+        <li>
+          <h3>Aurora Quantum S</h3>
+
+          <img src="images/dator2.png" alt="Aurora Quantum S" width="300">
+
+          <p>
+            En toppmodern superdator designad för artificiell intelligens och maskininlärning,
+            med fokus på energieffektiv beräkningskapacitet.
+          </p>
+        </li>
+
+        <hr>
+
+        <li>
+          <h3>Hyperion Nova Prime</h3>
+
+          <img src="images/dator3.png" alt="Hyperion Nova Prime" width="300">
+
+          <p>
+            En avancerad superdator byggd för extrema arbetsbelastningar som klimatmodeller
+            och tekniska simuleringar.
+          </p>
+        </li>
+      </ul>
+    </section>
+
     <hr>
 
-    <!---Tabell-->
-    <table width="100%">
+    <!-- Karta + Om oss bredvid varandra -->
+    <section>
+      <h2>Hitta oss</h2>
 
-        <!--En rad i tabellen-->
+      <table width="100%" border="1">
         <tr>
-            <!--Vänster kolumn-->
+          <!-- Karta -->
+          <td width="70%" valign="top">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.5992093435991!2d13.582588!3d59.406399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465cb12dfeb2f6e3%3A0x4d3afe475254bf1e!2sKarlstads%20universitet!5e0!3m2!1ssv!2sse!4v1769689805853!5m2!1ssv!2sse"
+              width="100%"
+              height="400"
+              style="border:0;"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </td>
 
-            <h2>Senast inkommet</h2>
+          <!-- Om oss -->
+          <td width="30%" valign="top">
+            <h3>Om oss</h3>
 
-            <ul>
-                <li>
-                    <a href="objekt.html">
-                        <h3>TitanCore X9 Ultra</h3>
-                        <p>En extremt kraftfull superdator utvecklad för avancerade beräkningar och simuleringar.
-                            Utrustad med flera högpresterande processorer och massiv minneskapacitet för forskning,
-                            AI-utveckling och dataanalys i realtid.</p>
-                        <img src="images/Dator1.png" width="100%" alt="Dator 1">
+            <p>
+              <strong>SPL Datorer</strong> är ett nystartat företag som drivs av tre studenter
+              med ett gemensamt intresse för IT och högpresterande datorsystem.
+            </p>
 
-                    </a>
-                </li>
-                <hr>
-                <li>
-                    <a href="objekt.html">
-                        <imgsrc="images /" width="100%" alt="Dator 2">
-                            <h3>Aurora Quantum S</h3>
-                            <p>En toppmodern superdator designad för artificiell intelligens och maskininlärning. Den
-                                kombinerar exceptionell beräkningskraft med energieffektiv arkitektur och används för
-                                komplexa vetenskapliga och tekniska beräkningar.</p>
-                    </a>
-                </li>
-                <hr>
-                <li>
-                    <a href="objekt.html">
-                        <imgsrc="images /" width="100%" alt="Dator 3">
-                            <h3>Hyperion Nova Prime</h3>
-                            <p>En avancerad superdator byggd för extrema arbetsbelastningar. Perfekt för klimatmodeller,
-                                avancerad fysik och storskaliga databeräkningar där snabbhet, precision och
-                                tillförlitlighet är avgörande</p>
-                    </a>
-                </li>
-            </ul>
-            <td width="70%">
-                <h2>Hitta oss</h2>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.5992093435991!2d13.582588!3d59.406399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465cb12dfeb2f6e3%3A0x4d3afe475254bf1e!2sKarlstads%20universitet!5e0!3m2!1ssv!2sse!4v1769689805853!5m2!1ssv!2sse"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+            <p>
+              Vårt mål är att göra det enkelt att hitta en prisvärd och pålitlig dator,
+              oavsett om du är student, privatperson eller företag.
+            </p>
 
+            <p>
+              <a href="kontakt.html">Kontakta oss</a> om du har frågor eller vill veta mer.
+            </p>
 
+            <p>Extern länk:</p>
 
-            </td>
-
-            <td width="30%">
-                <h3>Om oss</h3>
-                <p><strong>SPL Datorer</strong> är ett nystartat företag som drivs av tre studenter med ett gemensamt
-                    intresse för IT och datorer. </p>
-                <p>
-                    Vårt mål är att göra det enkelt att hitta en prisvärd och pålitlig
-                    dator, oavsett om du är student, privatperson eller företag.
-                </p>
-                <p>
-                    <a href="kontakt.html">Kontakta oss</a> om du har frågor eller vill veta mer.
-                </p>
-                <p>Följ oss på Facebook</p>
-
-                <a href="https://www.kau.se/" target="_blank">
-                    <img src="images/" alt="SPL Datorer på Facebook" width="40">
-                </a>
-            </td>
+            <a href="https://www.kau.se/" target="_blank">
+              <img src="images/kau.png" alt="Besök Karlstads universitet" width="120">
+            </a>
+          </td>
         </tr>
-    </table>
-    <hr>
-    <footer>
-        <p> <strong>SLP Datorer</strong><br>Umeå</p>
+      </table>
+    </section>
 
-        <p>E-post: <a href="mailto:info@spldatorer1234.se">info@spldatorer1234.se</a>
-        </p>
+  </main>
 
-    </footer>
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      <strong>SPL Datorer</strong><br>
+      Umeå
+    </p>
+
+    <p>
+      E-post:
+      <a href="mailto:info@spldatorer1234.se">info@spldatorer1234.se</a>
+    </p>
+  </footer>
 
 </body>
-
 </html>
