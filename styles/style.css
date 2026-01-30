@@ -31,14 +31,12 @@ header {
     align-items: center;
 }
 
-header img {
-    display: block;
-}
-
 nav {
-    margin-top: 12 px;
+    margin-top: 12px;
     padding: 10px;
-    border: 1px, solid;
+    display: flex;
+    gap: 30px
+
 }
 
 nav a {
