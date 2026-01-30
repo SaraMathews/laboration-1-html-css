@@ -50,6 +50,22 @@ nav a {
     font-weight: bold; /* fet stil */
 }
 
+/*Styleing på sektionen där objtklistan är */
+.objektlista {
+    background-color: rgb(255, 180, 120); /*bakgrundsfärg på sektionen */
+    padding: 20px; /*"padding" i rutan */
+    margin-bottom: 20px; /*marginal botten */
+}
+ /* Styleing på listan */
+.objektlista ul {
+    list-style: none; /*Tar bort punkten */
+    padding: 0; /* ingen paddning */
+    margin:0; /* inga marginaler */
+}
+
+.objektlista h3 a {
+    text-decoration: none;
+}
 
 /* När man hovrar över en <button> ändras textfärgen till blå */
 button:hover {
