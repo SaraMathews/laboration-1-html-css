@@ -1,53 +1,73 @@
+/* Grund style för hela hemsidan */
+
+body {
+    margin: 0; /* Tar bort standardmarginal på webbläsaren */
+    font-family: Verdana; /* Typsnitt för all text*/
+    color: black; /* Färg för all text */
+}
+
+/* container skapar en "ruta" med max 980px brett */
+.container {
+    max-width: 980px; /* Max 980px brett */
+    margin: 0 auto; /*centrerar containers på sidan */
+    padding: 16px; /* "padding" inuti rutan */
+    background-color: #ffffff; /*Vit bakgrund */
+}
+
+header {
+    display: flex; /* Gör att loggan och namnet hamnar på samma rad */
+    align-items: center; /* centrerar logga och text vertikalt */
+}
+
+/* Loggan */
+header img {
+    width: 200px; /*bredd */
+    height:auto; 
+}
+
+/* Namnet SPL Datorer */
+header h1 {
+    font-style: italic; /* Kursiv */
+    font-size: 32; /* storlek */
+    margin-left:20px; /* marginal vänster */
+}
+
+/* Navigations-meny */
+
+nav {
+    margin-top: 12px; /*mellanrum ovanför */
+    padding: 10px; /* "padding" i rutan */
+    display: flex; /* Gör att länkarna hamnar på samma rad */
+    gap: 30px; /* Mellanrum mellan länkarna */
+
+}
+
+/* Styleing på länkarna i nav-menyn */
+nav a {
+    text-decoration: none; /* ingen understrykning */
+    color: black; /* färg svart */
+    font-weight: bold; /* fet stil */
+}
+
+
+/* När man hovrar över en <button> ändras textfärgen till blå */
 button:hover {
     color: blue;
 }
-
+/* När man hovrar över en <a> länk ändras textfärgen till orange */
 a:hover {
     color: rgb(241, 105, 14);
 }
 
-
+/* Standardutseendet på en "dator"-ruta (class="dator") */
 .dator {
-    border-style: solid;
-    border-color: lightgrey;
-    border-radius: 5px;
-    padding: 2.5px;
+    border-style: solid; /* ram */
+    border-color: lightgrey; /* ramens färg*/
+    border-radius: 5px; /* rundade hörn*/
+    padding: 2.5px; /* "paddning" inuti rutan */
 }
+/* När man hovrar över rutan ändras ramens färg till lila */
 .dator:hover{
-    border-color:rgb(128, 0, 128)
+    border-color:rgb(128, 0, 128);
     }
 
-
-
-body {
-    margin: 0;
-    font-family: Verdana;
-    color: black;
-}
-
-.container {
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 16px;
-    background-color: #ffffff;
-}
-
-header {
-    display: flex;
-    align-items: center;
-}
-
-nav {
-    margin-top: 12px;
-    padding: 10px;
-    display: flex;
-    gap: 30px
-
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    margin-right: 12px;
-    font-weight: bold;
-}
