@@ -78,6 +78,9 @@ a:hover {
 
 /* Standardutseendet på en "dator"-ruta (class="dator") */
 .dator {
+    width: 100%; /*bredd*/
+    height: 400px; /* bilderna lika stora */
+    object-fit: cover;
     border-style: solid; /* ram */
     border-color: lightgrey; /* ramens färg*/
     border-radius: 5px; /* rundade hörn*/
