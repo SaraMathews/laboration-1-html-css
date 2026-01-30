@@ -62,9 +62,12 @@ nav a {
     padding: 0; /* ingen paddning */
     margin:0; /* inga marginaler */
 }
-
+/*Skapar marginal till listobjektet ovan */
+.objektlista h3 {
+    margin-top: 50px;
+}
 .objektlista h3 a {
-    text-decoration: none;
+    text-decoration: none; /* Tar bort strecket under */
 }
 
 /* När man hovrar över en <button> ändras textfärgen till blå */
