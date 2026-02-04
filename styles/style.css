@@ -5,6 +5,63 @@ body {
   color: black; /* Färg för all text */
 }
 
+ul.main-menu{ 
+
+list-style-type: none;
+margin-top: 12px; /* Mellanrum ovanför */
+padding: 10px; /* Padding i rutan */
+display: flex; /* Gör att länkarna hamnar på samma rad */
+gap: 30px; /* Mellanrum mellan länkarna */
+font-size: large;
+text-decoration: none; 
+}
+ul.main-menu>li{
+  position: relative;
+}
+
+
+
+ul.main-menu>li>ul{
+display: none;
+list-style-type: none; 
+position: absolute;
+padding-left: 0;
+margin-top: 0;
+margin-left: 0;
+top: 100%;
+left: 0; 
+background-color: white;
+font-size:medium;
+font-weight: normal;
+
+}
+
+ul.main-menu >li:hover >ul{
+display: block;
+}
+ul.main-menu a{
+  text-decoration: none;
+  color: black;
+}
+
+ul.main-menu > li > a {
+  font-weight: bold;
+}
+
+ul.main-menu > li > ul a {
+  font-weight: normal;
+  
+}
+
+ul.main-menu > li > a:hover {
+  color: rgb(241, 105, 14);
+}
+
+ul.main-menu > li > ul > li > a:hover {
+color: rgb(241, 105, 14);
+}
+
+
 /* container skapar en "ruta" med max 980px bredd */
 .container {
   max-width: 980px; /* Max 980px bredd */
@@ -58,20 +115,10 @@ header h1 {
   margin-left: 20px; /* Marginal vänster */
 }
 
-/* Navigations-meny */
-nav {
-  margin-top: 12px; /* Mellanrum ovanför */
-  padding: 10px; /* Padding i rutan */
-  display: flex; /* Gör att länkarna hamnar på samma rad */
-  gap: 30px; /* Mellanrum mellan länkarna */
-}
 
-/* Styling på länkarna i nav-menyn */
-nav a {
-  text-decoration: none; /* ingen understrykning */
-  color: black; /* färg svart */
-  font-weight: bold; /* fet stil */
-}
+
+
+
 
 /* Styling på sektionen där objektlistan är */
 .objektlista {
@@ -102,10 +149,7 @@ nav a {
   color: rgb(241, 105, 14);
 }
 
-/* Hover på knappar */
-button:hover {
-  color: blue;
-}
+
 
 /* Hover på alla länkar */
 a:hover {
