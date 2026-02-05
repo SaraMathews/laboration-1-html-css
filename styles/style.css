@@ -42,6 +42,7 @@ display: block;
 ul.main-menu a{
   text-decoration: none;
   color: black;
+  
 }
 
 ul.main-menu > li > a {
@@ -50,6 +51,7 @@ ul.main-menu > li > a {
 
 ul.main-menu > li > ul a {
   font-weight: normal;
+  font-size: small;
   
 }
 
