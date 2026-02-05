@@ -33,7 +33,7 @@
         </ul>
 
         <main>
-            <!-- Rubrik -->
+            <!-- Teamet med bild, kontaktuppgifter och beskrivning-->
             <section>
                 <div class="teamet">
                     <div class="person">
@@ -42,6 +42,7 @@
                         <p>VD</p>
                         <p> <a href="tel:076123561">076-123 45 61</a></p>
                         <p><a href="mailto:veronica.visionelius@lsp.se">veronica.visionelius@lsp.se</a></p>
+
                         <p>
                             Veronica Visionelius är företagets verkställande
                             direktör och leder verksamheten med fokus på innovation,
@@ -58,7 +59,7 @@
                         <p><strong>Kristina Pallgren</strong></p>
                         <p>Lagerarbetare</p>
                         <p> <a href="tel:076123562">076-123 45 62</a></p>
-                        <p><a href="mailto:kristina.pallgre@lsp.se">kristina.pallgren@lsp.se</a></p>
+                        <p><a href="mailto:kristina.pallgren@lsp.se">kristina.pallgren@lsp.se</a></p>
                         <p>
                             Kristina Pallgren är en viktig del av vår lagerverksamhet
                             och arbetar dagligen med att säkerställa ett effektivt och välorganiserat
@@ -85,95 +86,89 @@
                     </div>
                 </div>
             </section>
-<h2>Kontakta oss!</h2>
+            <hr>
+
+            <!--Kontaktformulär-->
+            <h2>Kontakta oss!</h2>
 
             <section class="kontakt">
-                
-  <form>
 
-    <p>
-      <label for="namn">Ditt namn:</label><br>
-      <input type="text" id="namn" name="namn">
-    </p>
+                <form>
 
-    <p>
-      <label for="mail">Din mail:</label><br>
-      <input type="email" id="mail" name="mail">
-    </p>
+                    <p><label for="namn">Ditt namn:</label><br>
+                        <input type="text" id="namn" name="namn">
+                    </p>
 
-    <p>
-      <label for="kontakt">Vem vill du kontakta?</label><br>
-      <select id="kontakt" name="kontakt">
-        <option value="">Välj här:</option>
-        <option value="Veronica Visionelius">VD Veronica</option>
-        <option value="Kristina Pallgren">Lagerarbetare Kristina Pallgren</option>
-        <option value="Johan Serverin">IT-Support Johan Serverin</option>
-      </select>
-    </p>
+                    <p>
+                        <label for="mail">Din mail:</label><br>
+                        <input type="email" id="mail" name="mail">
+                    </p>
 
-    <p>
-      <input type="checkbox" id="prenumerera" name="prenumerera">
-      <label for="prenumerera">Jag vill prenumerera på ert nyhetsbrev</label>
-    </p>
+                    <p>
+                        <label for="kontakt">Vem vill du kontakta?</label><br>
+                        <select id="kontakt" name="kontakt">
+                            <option value="">Välj här:</option>
+                            <option value="Veronica Visionelius">VD Veronica</option>
+                            <option value="Kristina Pallgren">Lagerarbetare Kristina Pallgren</option>
+                            <option value="Johan Serverin">IT-Support Johan Serverin</option>
+                        </select>
+                    </p>
 
-    <p>
-      <input type="checkbox" id="ja" name="ja">
-      <label for="ja">Jag vill att ni ringer upp mig</label>
-    </p>
+                    <p>
+                        <input type="checkbox" id="prenumerera" name="prenumerera">
+                        <label for="prenumerera">Jag vill prenumerera på ert nyhetsbrev</label>
+                    </p>
 
-    <p>
-      <label for="meddelande">Meddelande:</label><br>
-      <textarea id="meddelande" name="meddelande" rows="10" cols="40"></textarea>
-    </p>
+                    <p>
+                        <input type="checkbox" id="ja" name="ja">
+                        <label for="ja">Jag vill att ni ringer upp mig</label>
+                    </p>
 
-    <input type="submit" value="Skicka">
+                    <p>
+                        <label for="meddelande">Meddelande:</label><br>
+                        <textarea id="meddelande" name="meddelande" rows="10" cols="40"></textarea>
+                    </p>
 
-  </form>
-  
+                    <input type="submit" value="Skicka">
 
-<aside>
- <p>
-    <strong>Öppettider</strong><br>
-    Mån–Fre: 09:00–18:00<br>
-    Lunch: 12:00–13:00
-  </p>
+                </form>
 
+                <!--Aside med öppttider och karta-->
+                <aside>
+                    <p>
+                        <strong>Öppettider</strong><br>
+                        Mån–Fre: 09:00–18:00<br>
+                        Lunch: 12:00–13:00
+                    </p>
 
-  <p>
-    Telefon: <a href="tel:054123458">054-123 45 8</a><br>
-    E-post: <a href="mailto:info@lspdatorer1234.se">info@lspdatorer1234.se</a>
-  </p>
-  <td>
-                            <iframe id="map"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.5992093435991!2d13.582588!3d59.406399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465cb12dfeb2f6e3%3A0x4d3afe475254bf1e!2sKarlstads%20universitet!5e0!3m2!1ssv!2sse!4v1769689805853!5m2!1ssv!2sse"
-                                allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
-                        </td>
+                    <p>
+                        Telefon: <a href="tel:054123458">054-123 45 8</a><br>
+                        E-post: <a href="mailto:info@lspdatorer1234.se">info@lspdatorer1234.se</a>
+                    </p>
+                    <!--Karta-->
+                    <iframe id="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.5992093435991!2d13.582588!3d59.406399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465cb12dfeb2f6e3%3A0x4d3afe475254bf1e!2sKarlstads%20universitet!5e0!3m2!1ssv!2sse!4v1769689805853!5m2!1ssv!2sse"
+                        allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
 
- 
-</aside>
-</section>
+                </aside>
+            </section>
 
+            <hr>
+        </main>
+        
+        <!--Footer-->
+        <footer>
+            <p>
+                <strong>LSP Datorer</strong><br>
+                Karlstad
+            </p>
 
-
-
-
-
-
-
-<hr>
-
-            <footer>
-                <p>
-                    <strong>LSP Datorer</strong><br>
-                    Karlstad
-                </p>
-
-                <p>
-                    E-post:
-                    <a href="mailto:info@lspdatorer1234.se">info@lspdatorer1234.se</a>
-                </p>
-            </footer>
+            <p>
+                E-post:
+                <a href="mailto:info@lspdatorer1234.se">info@lspdatorer1234.se</a>
+            </p>
+        </footer>
 
     </div>
 </body>
