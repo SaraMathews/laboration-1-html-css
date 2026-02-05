@@ -58,7 +58,7 @@ a:hover {
 
 /* MENY (main-menu) */
 
-ul.main-menu {
+ul#menu {
     list-style-type: none;
     margin-top: 12px; /* Mellanrum ovanför */
     padding: 10px; /* Padding i rutan */
@@ -67,20 +67,20 @@ ul.main-menu {
     font-size: large;
 }
 
-ul.main-menu>li {
+ul#menu>li {
     position: relative;
 }
 
-ul.main-menu a {
+ul#menu a {
     text-decoration: none;
     color: black;
 }
 
-ul.main-menu>li>a {
+ul#menu>li>a {
     font-weight: bold;
 }
 /*Dropdown listan */
-ul.main-menu>li>ul {
+ul#menu> li> ul#dropdown {
     display: none; /*Dölj undermeny tills man hovrar */
     list-style-type: none;
     position: absolute; /* Lägger den "ovanpå" sidan */
@@ -94,22 +94,22 @@ ul.main-menu>li>ul {
     font-weight: normal;
 }
 /* Visar undermenyn när man hovrar på parent- li */
-ul.main-menu>li:hover>ul {
+ul#menu>li:hover>ul#dropdown {
     display: block;
 }
 
 /* Länkar i undermenyn */
-ul.main-menu>li>ul a {
+ul#menu>li>ul#dropdown a {
     font-weight: normal;
     font-size: small;
 }
  /*Hover-färg på huvudlänk */
-ul.main-menu>li>a:hover {
+ul#menu>li>a:hover {
     color: rgb(241, 105, 14);
 }
 
 /*Hover-färg på undermenylänk */
-ul.main-menu>li>ul>li>a:hover {
+ul#menu>li> ul#dropdown >li>a:hover {
     color: rgb(241, 105, 14);
 }
 
