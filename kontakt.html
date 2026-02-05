@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="sv">
 <!-- Text i head-->
 
@@ -19,11 +18,11 @@
             <h1>LSP Datorer</h1>
         </header>
 
-
         <!-- Navigeringsfält-->
         <ul class="main-menu">
             <li><a href="index.html">Start</a></li>
-            <li><a href="objekt.html">Objekt</a>
+            <li>
+                <a href="objekt.html">Objekt</a>
                 <ul>
                     <li><a href="objekt.html#dator1">TitanCore X9 Ultra</a></li>
                     <li><a href="objekt.html#dator2">Aurora Quantum S</a></li>
@@ -35,87 +34,148 @@
 
         <main>
             <!-- Rubrik -->
-            <h1 style="text-align:center">Kontakta oss</h1>
+            <section>
+                <div class="teamet">
+                    <div class="person">
+                        <img src="images/linnea.png" alt="Linnea VD">
+                        <p><strong>Veronica Visionelius</strong></p>
+                        <p>VD</p>
+                        <p> <a href="tel:076123561">076-123 45 61</a></p>
+                        <p><a href="mailto:veronica.visionelius@lsp.se">veronica.visionelius@lsp.se</a></p>
+                        <p>
+                            Veronica Visionelius är företagets verkställande
+                            direktör och leder verksamheten med fokus på innovation,
+                            kvalitet och hållbar tillväxt. Hon har lång erfarenhet av att utveckla
+                            teknikorienterade organisationer och arbetar strategiskt för att stärka
+                            företagets position på marknaden. Med ett tydligt kundfokus
+                            och ett engagerat ledarskap driver Veronica bolaget framåt
+                            i en snabbt föränderlig bransch.
+                        </p>
+                    </div>
 
-            <!-- Tabell börjar -->
-            <table>
+                    <div class="person">
+                        <img src="images/sara.png" alt="Kristina på lagret">
+                        <p><strong>Kristina Pallgren</strong></p>
+                        <p>Lagerarbetare</p>
+                        <p> <a href="tel:076123562">076-123 45 62</a></p>
+                        <p><a href="mailto:kristina.pallgre@lsp.se">kristina.pallgren@lsp.se</a></p>
+                        <p>
+                            Kristina Pallgren är en viktig del av vår lagerverksamhet
+                            och arbetar dagligen med att säkerställa ett effektivt och välorganiserat
+                            varuflöde. Med god struktur, hög nogrannhet och ett starkt ansvarstagande
+                            ser hon till att varje pall, leverans och utlastning hanteras på ett säkert
+                            och korrekt sätt. Hennes engagemang och yrkesstolthet skapar trygghet både
+                            internt och gentemot våra kunder.
+                        </p>
+                    </div>
+                    <div class="person">
+                        <img src="images/pontus.png" alt="Johan på IT-support">
+                        <p><strong>Johan Serverin</strong></p>
+                        <p>IT-Support</p>
+                        <p> <a href="tel:076123563">076-123 45 63</a></p>
+                        <p><a href="mailto:johan.serverin@lsp.se">johan.serverin@lsp.se</a></p>
+                        <p>
+                            Johan Serverin arbetar med IT-support och hjälper både kollegor och kunder
+                            med att få vardagens teknik att fungera smidigt. Han ansvarar för att system, datorer
+                            och digitala arbetsverktyg är stabila, säkra och tillgängliga.
+                            Med god teknisk kompetens, ett tydligt servicefokus guidar
+                            Johan kunder genom alla formar av IT-lösningar. Med Johan som IT-support får
+                            både kunder och medarbetare snabb hjälp.
+                        </p>
+                    </div>
+                </div>
+            </section>
+<h2>Kontakta oss!</h2>
 
-                <!-- Bild på personal -->
-                <tr>
-                    <th><img src="images/linnea.png" alt="Linnea"></th>
-                    <th><img src="images/sara.png" alt="Sara"></th>
-                    <th><img src="images/pontus.png" alt="Pontus"></th>
-                </tr>
+            <section class="kontakt">
+                
+  <form>
 
-                <!-- Namn för vardera person -->
-                <tr>
-                    <th>Veronica Visionelius</th>
-                    <th>Kristina Pallgren</th>
-                    <th>Johan Serverin</th>
-                </tr>
+    <p>
+      <label for="namn">Ditt namn:</label><br>
+      <input type="text" id="namn" name="namn">
+    </p>
 
-                <!-- Yrkes titel -->
-                <tr>
-                    <th>VD</th>
-                    <th>Lagerarbetare</th>
-                    <th>IT-support</th>
-                </tr>
+    <p>
+      <label for="mail">Din mail:</label><br>
+      <input type="email" id="mail" name="mail">
+    </p>
 
-                <!-- Telefonnummer som länkar till kau -->
-                <tr>
-                    <th> <a href="https://www.kau.se/" target="_blank">076-123 45 61</a></th>
-                    <th><a href="https://www.kau.se/" target="_blank">076-123 45 62</a></th>
-                    <th><a href="https://www.kau.se/" target="_blank">076-123 45 63</a></th>
-                </tr>
+    <p>
+      <label for="kontakt">Vem vill du kontakta?</label><br>
+      <select id="kontakt" name="kontakt">
+        <option value="">Välj här:</option>
+        <option value="Veronica Visionelius">VD Veronica</option>
+        <option value="Kristina Pallgren">Lagerarbetare Kristina Pallgren</option>
+        <option value="Johan Serverin">IT-Support Johan Serverin</option>
+      </select>
+    </p>
 
-                <!-- Mail -->
-                <tr>
-                    <th><a href="mailto:veronica.visionelius@lsp.se">veronica.visionelius@lsp.se</a></th>
-                    <th><a href="mailto:kristina.pallgren@lsp.se">kristina.pallgren@lsp.se</a></th>
-                    <th><a href="mailto:johan.serverin@lsp.se">johan.serverin@lsp.se</a></th>
-                </tr>
+    <p>
+      <input type="checkbox" id="prenumerera" name="prenumerera">
+      <label for="prenumerera">Jag vill prenumerera på ert nyhetsbrev</label>
+    </p>
 
-                <!-- Arbetsbeskrivning -->
-                <tr>
-                    <td>Veronica Visionelius är företagets verkställande
-                        direktör och leder verksamheten med fokus på innovation,
-                        kvalitet och hållbar tillväxt. Hon har lång erfarenhet av att utveckla
-                        teknikorienterade organisationer och arbetar strategiskt för att stärka
-                        företagets position på marknaden. Med ett tydligt kundfokus
-                        och ett engagerat ledarskap driver Veronica bolaget framåt
-                        i en snabbt föränderlig bransch.
-                    </td>
-                    <td>Kristina Pallgren är en viktig del av vår lagerverksamhet
-                        och arbetar dagligen med att säkerställa ett effektivt och välorganiserat
-                        varuflöde. Med god struktur, hög nogrannhet och ett starkt ansvarstagande
-                        ser hon till att varje pall, leverans och utlastning hanteras på ett säkert
-                        och korrekt sätt. Hennes engagemang och yrkesstolthet skapar trygghet både
-                        internt och gentemot våra kunder.
-                    </td>
-                    <td><br>Johan Serverin arbetar med IT-support och hjälper både kollegor och kunder
-                        med att få vardagens teknik att fungera smidigt. Han ansvarar för att system, datorer
-                        och digitala arbetsverktyg är stabila, säkra och tillgängliga.
-                        Med god teknisk kompetens, ett pedagogiskt arbetssätt och ett tydligt servicefokus guidar
-                        Johan kunder genom alla formar av IT-lösningar. Med Johan som IT-support får
-                        både kunder och medarbetare snabb hjälp.
-                    </td>
-                </tr>
-            </table>
+    <p>
+      <input type="checkbox" id="ja" name="ja">
+      <label for="ja">Jag vill att ni ringer upp mig</label>
+    </p>
 
-        </main>
+    <p>
+      <label for="meddelande">Meddelande:</label><br>
+      <textarea id="meddelande" name="meddelande" rows="10" cols="40"></textarea>
+    </p>
+
+    <input type="submit" value="Skicka">
+
+  </form>
+  
+
+<aside>
+ <p>
+    <strong>Öppettider</strong><br>
+    Mån–Fre: 09:00–18:00<br>
+    Lunch: 12:00–13:00
+  </p>
+
+
+  <p>
+    Telefon: <a href="tel:054123458">054-123 45 8</a><br>
+    E-post: <a href="mailto:info@lspdatorer1234.se">info@lspdatorer1234.se</a>
+  </p>
+  <td>
+                            <iframe id="map"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.5992093435991!2d13.582588!3d59.406399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465cb12dfeb2f6e3%3A0x4d3afe475254bf1e!2sKarlstads%20universitet!5e0!3m2!1ssv!2sse!4v1769689805853!5m2!1ssv!2sse"
+                                allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </td>
+
+ 
+</aside>
+</section>
+
+
+
+
+
+
+
+
+<hr>
+
+            <footer>
+                <p>
+                    <strong>LSP Datorer</strong><br>
+                    Karlstad
+                </p>
+
+                <p>
+                    E-post:
+                    <a href="mailto:info@lspdatorer1234.se">info@lspdatorer1234.se</a>
+                </p>
+            </footer>
+
     </div>
-
-    <footer>
-        <p>
-            <strong>LSP Datorer</strong><br>
-            Karlstad
-        </p>
-
-        <p>
-            E-post:
-            <a href="mailto:info@lspdatorer1234.se">info@lspdatorer1234.se</a>
-        </p>
-    </footer>
 </body>
 
 </html>
