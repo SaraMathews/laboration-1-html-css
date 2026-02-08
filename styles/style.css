@@ -80,7 +80,7 @@ ul#menu>li>a {
     font-weight: bold;
 }
 /*Dropdown listan */
-ul#menu> li> ul#dropdown {
+ul#menu> li> ul.dropdown {
     display: none; /*Dölj undermeny tills man hovrar */
     list-style-type: none;
     position: absolute; /* Lägger den "ovanpå" sidan */
@@ -94,12 +94,12 @@ ul#menu> li> ul#dropdown {
     font-weight: normal;
 }
 /* Visar undermenyn när man hovrar på parent- li */
-ul#menu>li:hover>ul#dropdown {
+ul#menu>li:hover>ul.dropdown {
     display: block;
 }
 
 /* Länkar i undermenyn */
-ul#menu>li>ul#dropdown a {
+ul#menu>li>ul.dropdown a {
     font-weight: normal;
     font-size: small;
 }
@@ -109,7 +109,7 @@ ul#menu>li>a:hover {
 }
 
 /*Hover-färg på undermenylänk */
-ul#menu>li> ul#dropdown >li>a:hover {
+ul#menu>li> ul.dropdown >li>a:hover {
     color: rgb(241, 105, 14);
 }
 
